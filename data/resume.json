@@ -1,1 +1,169 @@
-
+{
+  "basics": {
+    "name": "Gbanankpon Patrice Alladassivo",
+    "title": "DevSecOps Platform Engineer Lead",
+    "location": "Colorado Springs, Colorado",
+    "email": "patridas20@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/patricealladassivo/",
+    "workAuthorization": "US Citizen",
+    "languages": ["French", "English"],
+    "clearance": "DoD Secret (2025)",
+    "summary": [
+      "Over 13 years of experience in the Information Technology industry with deep Linux administration and AWS platform expertise.",
+      "Hands-on experience designing and deploying cloud infrastructure with AWS, Terraform, Terragrunt, and automation pipelines.",
+      "Strong operations and platform background across OpenShift, Kubernetes, observability, security, and system hardening."
+    ]
+  },
+  "certifications": [
+    {
+      "name": "Red Hat Certified OpenShift Administrator",
+      "year": "2025"
+    },
+    {
+      "name": "Red Hat Certified Engineer (RHCE)",
+      "year": "2023"
+    },
+    {
+      "name": "Red Hat Certified System Administrator (RHCSA)",
+      "year": "2020"
+    },
+    {
+      "name": "AWS Certified Solutions Architect - Associate",
+      "year": "2022"
+    },
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "year": "2022"
+    },
+    {
+      "name": "AWS Artificial Intelligence Practitioner",
+      "year": "2025"
+    },
+    {
+      "name": "CompTIA Security+ ce",
+      "year": "2024"
+    }
+  ],
+  "certificationVerification": "https://rhtapps.redhat.com/verify?certId=200-170-199",
+  "template": {
+    "key": "clean-professional"
+  },
+  "skills": [
+    "AWS multi-account governance (Organizations, Control Tower, SCPs)",
+    "OpenShift and Kubernetes administration",
+    "Infrastructure as code with Terraform and Terragrunt",
+    "CI/CD with GitHub Actions and GitLab",
+    "Container security and vulnerability management",
+    "Linux automation with Ansible and Bash",
+    "Python, C++, and C#",
+    "Monitoring with DataDog, Kibana, and CloudWatch",
+    "RHEL patching and lifecycle management with Red Hat Satellite",
+    "Relational databases (MS SQL Server, MySQL/MariaDB)"
+  ],
+  "experience": [
+    {
+      "company": "Maximus Inc",
+      "location": "Colorado Springs, Colorado",
+      "role": "DevSecOps Platform Engineer Lead",
+      "start": "2025-07",
+      "end": "Present",
+      "highlights": [
+        "Analyze, monitor, and re-allocate resources across applications and OpenShift clusters.",
+        "Monitor cluster and package vulnerabilities with Red Hat Advanced Cluster Security.",
+        "Patch clusters via controlled upgrade channels and version strategy.",
+        "Centralize application and infrastructure logs to persistent storage.",
+        "Deploy GitLab Runner in-cluster to consume workflows from external GitLab instances.",
+        "Lead Dev-Sec-Ops collaboration to sustain platform reliability and security posture."
+      ]
+    },
+    {
+      "company": "Booz Allen Hamilton",
+      "location": "Colorado Springs, Colorado",
+      "role": "AWS DevSecOps Platform Engineer",
+      "start": "2024-06",
+      "end": "2025-07",
+      "highlights": [
+        "Created and troubleshot CI/CD pipelines for frontend and backend apps using GitHub Actions.",
+        "Integrated multiple security scanning tools in delivery pipelines.",
+        "Implemented container vulnerability scanning workflows.",
+        "Integrated static analysis for source code quality gates.",
+        "Orchestrated containers with Docker Compose.",
+        "Built image pipelines and pushed artifacts to Amazon ECR."
+      ]
+    },
+    {
+      "company": "ModivCare (LogistiCare)",
+      "location": "Denver, Colorado",
+      "role": "Sr Linux Systems Engineer / AWS Cloud Engineer / DevOps Engineer",
+      "start": "2021-06",
+      "end": "2024-06",
+      "highlights": [
+        "Supported RHEL, Amazon Linux, and Ubuntu workloads.",
+        "Built and deployed AWS infrastructure across VPC, EC2, S3, RDS, IAM, Route 53, and ELB.",
+        "Automated DevOps workflows using Python, Ansible, Terraform, and Terragrunt.",
+        "Managed container platforms on ECR, ECS, and Kubernetes.",
+        "Administered and monitored multiple OpenShift clusters including production.",
+        "Implemented multi-account security hardening with guardrails and service control policies."
+      ]
+    },
+    {
+      "company": "JBS USA",
+      "location": "Greeley, Colorado",
+      "role": "Linux System Administrator",
+      "start": "2019-04",
+      "end": "2021-06",
+      "highlights": [
+        "Supported and administered RHEL 6/7/8 environments.",
+        "Managed Linux containers with Podman and Docker on RHEL 8.",
+        "Built and deployed systems via Kickstart and standard hardening.",
+        "Performed file system management with LVM.",
+        "Installed and maintained MySQL/MariaDB and shared services (NFS, CIFS, HTTPD, Samba)."
+      ]
+    },
+    {
+      "company": "Cargill Inc",
+      "location": "Fort Morgan, Colorado",
+      "role": "Unix Linux Specialist",
+      "start": "2017-03",
+      "end": "2019-03",
+      "highlights": [
+        "Built and deployed Solaris and Linux systems in enterprise environments.",
+        "Administered OpenShift container clusters.",
+        "Troubleshot performance and stability across RHEL and CentOS hosts.",
+        "Managed patching and updates with Red Hat Satellite.",
+        "Configured LDAP/AD integration and automount services."
+      ]
+    },
+    {
+      "company": "TBC Group",
+      "location": "Abomey-Calavi, Benin",
+      "role": "Junior System Administrator & C++ Software Developer",
+      "start": "2014-09",
+      "end": "2016-09",
+      "highlights": [
+        "Installed and configured Windows and Ubuntu environments.",
+        "Managed user accounts, privileges, and system resources.",
+        "Developed sales, inventory, and apartment management applications in C++ with Qt.",
+        "Configured software stacks and databases for business operations."
+      ]
+    },
+    {
+      "company": "FECECAM BENIN",
+      "location": "Abomey-Calavi, Benin",
+      "role": "Junior System Administrator & C++ Software Developer",
+      "start": "2011-03",
+      "end": "2014-08",
+      "highlights": [
+        "Delivered end-user training for Microsoft Office tools.",
+        "Supported and repaired Windows operating systems.",
+        "Designed database schema updates and implementation mappings.",
+        "Built a C++/Qt data aggregation app for 128 branch offices into a central MS SQL Server database."
+      ]
+    }
+  ],
+  "education": [
+    "Bachelor Degree in Computer Information System, Benin",
+    "Certified Database Administrator, Aims Community College, CO (2020)",
+    "Certified Visual C# Programming, Aims Community College, CO (2020)"
+  ]
+}
