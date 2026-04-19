@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Profile</title>
+    <meta name="description" content="Professional resume and portfolio profile with skills, certifications, and recent experience." />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Resume Profile" />
+    <meta property="og:description" content="Professional resume and portfolio profile with skills, certifications, and recent experience." />
+    <meta property="og:url" content="https://example.com/" />
+    <meta property="og:site_name" content="Resume Profile" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Resume Profile" />
+    <meta name="twitter:description" content="Professional resume and portfolio profile with skills, certifications, and recent experience." />
+    <link id="canonical-link" rel="canonical" href="https://example.com/" />
+    <meta id="resume-data-url" name="resume-data-url" content="data/resume.json" />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <div class="bg-noise"></div>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <div class="brand">GP ALLADASSIVO</div>
+        <nav class="navlinks">
+          <a href="#profile">Profile</a>
+          <a href="#summary">Summary</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section hero fade" id="profile">
+        <p class="eyebrow">Cloud Infrastructure + DevSecOps</p>
+        <h1 id="name">Loading...</h1>
+        <p class="subtitle" id="title"></p>
+        <p class="subtitle" id="subtitle"></p>
+        <div class="pill-row" id="contact-pills"></div>
+        <div class="cta-row">
+          <a class="button" id="email-link" href="#">Contact by Email</a>
+          <a class="button secondary" id="cert-verify" href="#" target="_blank" rel="noreferrer"></a>
+          <a class="button secondary" id="linkedin-link" href="#" target="_blank" rel="noreferrer">LinkedIn Profile</a>
+          <button class="button secondary" id="pdf-export-btn" type="button">Download PDF</button>
+        </div>
+        <p class="subtitle" id="pdf-export-status" aria-live="polite"></p>
+      </section>
+
+      <section class="section grid-2" id="summary">
+        <article class="card fade">
+          <h2>Professional Summary</h2>
+          <ul id="summary-list"></ul>
+        </article>
+        <article class="card fade" id="skills">
+          <h2>Core Skills</h2>
+          <ul id="skills-list"></ul>
+        </article>
+      </section>
+
+      <section class="section grid-2" id="certifications">
+        <article class="card fade">
+          <h2>Certifications</h2>
+          <div class="cert-table-wrap">
+            <table class="cert-table" aria-label="Certifications and verification links">
+              <thead>
+                <tr>
+                  <th>Certification</th>
+                  <th>Year</th>
+                  <th>Verify</th>
+                </tr>
+              </thead>
+              <tbody id="cert-list"></tbody>
+            </table>
+          </div>
+        </article>
+        <article class="card fade" id="education">
+          <h2>Education</h2>
+          <ul id="education-list"></ul>
+        </article>
+      </section>
+
+      <section class="section" id="experience">
+        <article class="card fade">
+          <h2>Professional Experience</h2>
+          <div class="experience-list" id="experience-list"></div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      @Gbanankpon Patrice Alladassiivo - Email: patridas20@gmail |
+      LinkedIn:
+      <a href="https://www.linkedin.com/in/patricealladassivo/" target="_blank" rel="noreferrer">https://www.linkedin.com/in/patricealladassivo/</a>
+    </footer>
+
+    <script src="assets/app.js" defer></script>
+  </body>
+</html>
